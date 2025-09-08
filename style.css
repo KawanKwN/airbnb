@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff385c;
+}
+
+.busca {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 6px 15px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.acoes {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8px;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.foto-principal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.fotos-menores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.fotos-menores img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.foto-com-botao {
+  position: relative;
+}
+
+.foto-com-botao button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.conteudo {
+  display: flex;
+  max-width: 1100px;
+  margin: 30px auto;
+  gap: 40px;
+}
+
+.lado-esquerdo {
+  flex: 2;
+}
+
+.caixa-reserva {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+
+.descricao h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.descricao p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+.avaliacoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.preferido {
+  max-width: 60%;
+}
+
+.nota {
+  text-align: right;
+  font-size: 14px;
+}
+
+
+.anfitriao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.anfitriao img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.anfitriao p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.anfitriao span {
+  font-size: 13px;
+  color: #555;
+}
+
+
+.caixa-reserva h2 {
+  margin: 0 0 15px;
+  font-size: 20px;
+}
+
+.caixa-reserva .linha {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.caixa-reserva button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #ff385c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
